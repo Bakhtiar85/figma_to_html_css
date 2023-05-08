@@ -15,6 +15,10 @@ div.nav-bar main nav ul {
 
 div.nav-bar main nav ul li {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 div.nav-bar main nav ul li span {
@@ -39,7 +43,6 @@ div.nav-bar main nav ul li span {
 
 div.nav-bar hr {
     margin: 0;
-    border: 1px solid;
-    color: white;
-    opacity: 0.2;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
 }
