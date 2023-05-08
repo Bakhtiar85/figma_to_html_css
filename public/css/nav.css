@@ -1,0 +1,45 @@
+div.nav-bar main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #317CC6;
+    padding: 14px 0;
+}
+
+div.nav-bar main nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+div.nav-bar main nav ul li {
+    list-style: none;
+}
+
+div.nav-bar main nav ul li span {
+    /* width: 46px;
+    height: 19px; */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+div.nav-bar hr {
+    margin: 0;
+    border: 1px solid;
+    color: white;
+    opacity: 0.2;
+}
