@@ -2,7 +2,7 @@ div.nav-bar main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #317CC6;
+    background: linear-gradient(125.28deg, #0857c9b8 0%, #147bdedb 100%);
     padding: 14px 0;
 }
 
@@ -43,6 +43,7 @@ div.nav-bar main nav ul li span {
 
 div.nav-bar hr {
     margin: 0;
-    opacity: 0.1;
-    border: 1px solid #FFFFFF;
+    opacity: 0.6;
+    border: none;
+    height: 0.5px;
 }

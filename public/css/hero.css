@@ -1,0 +1,109 @@
+div.hero-div {
+    height: 1441px;
+}
+
+div.hero-div main {
+    position: relative;
+    /* background: red; */
+    height: 983px;
+    /* background: linear-gradient(rgb(49, 124, 198), #317bc600), url('../media/oval-background-blue.png'); */
+    background: url('../media/oval-background-blue.png');
+    background-repeat: no-repeat;
+}
+
+div.hero-div main .background-gradiant-overflow {
+    position: absolute;
+    height: 500px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    left: 0;
+    background: linear-gradient(125.28deg, #0857c9 0%, #147bde 100%);
+}
+
+div.hero-div main section {
+    height: 983px;
+    background: url('../media/shiny-night-city-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.hero-div main .overlay-gradiant-overflow {
+    position: absolute;
+    height: 983px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url('../media/overlay-bottom-curved-blue-removebg-preview.png');
+    opacity: 0.59;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.hero-div main .bottom-white-creasent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -130px;
+
+    height: 290px;
+    background: url('../media/bottom-white-creasent.png');
+}
+
+div.hero-div main .vector-left {
+    position: absolute;
+    left: 0;
+    bottom: -120px;
+}
+
+div.hero-div main .vector-right {
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+}
+
+div.hero-div main section .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 0;
+    z-index: 1;
+}
+
+div.hero-div main section .head-text {
+    width: 1039px;
+    height: 188px;
+    left: 441px;
+    top: 400px;
+
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+div.hero-div main section hr.text {
+    width: 108px;
+    height: 0px;
+    left: 907px;
+    top: 606px;
+
+    border: 2px solid #FFFFFF;
+}
+
+div.hero-div main section .para-text {
+    width: 933px;
+    height: 60px;
+    left: 494px;
+    top: 634px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
