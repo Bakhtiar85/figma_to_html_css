@@ -1,0 +1,101 @@
+/* div.about-us {
+    height: 78vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.about-us section {
+    display: flex;
+    justify-content: space-around;
+    gap: 122px;
+} */
+
+div.about-us section .text-about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+div.about-us section .text-about p.heading {
+    position: absolute;
+    left: 140px;
+    top: 1409px;
+
+    margin: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+div.about-us section .text-about p.para {
+    position: absolute;
+    /* width: 815px; */
+    width: 826px;
+    height: 280px;
+    left: 140px;
+    top: 1509px;
+
+    margin: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
+
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+
+div.about-us section div.image-about .image-div {
+    position: absolute;
+    width: 603px;
+    height: 619px;
+    left: 1127px;
+    top: 1354px;
+
+    background: url('../media/business-people-walking-outside-office-building.png');
+    background-position: center;
+    /* Drop Shadow */
+
+    /* filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.08)); */
+    border-radius: 20px;
+}
+
+div.about-us section div.image-about::before {
+    content: '';
+    position: absolute;
+    width: 290px;
+    height: 244px;
+    left: 1077px;
+    top: 1304px;
+
+    background: linear-gradient(125.28deg, #0EA1EF 0%, #064BCA 100%);
+    opacity: 0.2;
+    border-radius: 20px;
+}
+
+div.about-us section div.image-about::after {
+    content: '';
+    position: absolute;
+    width: 290px;
+    height: 244px;
+    left: 1490px;
+    top: 1779px;
+
+    /* Linear */
+    z-index: -1;
+    background: linear-gradient(125.28deg, #0EA1EF 0%, #064BCA 100%);
+    opacity: 0.2;
+    border-radius: 20px;
+}
