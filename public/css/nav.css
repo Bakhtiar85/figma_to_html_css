@@ -42,8 +42,14 @@ div.nav-bar main nav ul li span {
 }
 
 div.nav-bar hr {
-    margin: 0;
+    /* margin: 0;
     opacity: 0.6;
     border: none;
-    height: 0.5px;
+    height: 0.5px; */
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 1.4px;
+    opacity: 0.1;
 }

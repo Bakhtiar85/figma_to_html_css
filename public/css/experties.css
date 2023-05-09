@@ -1,0 +1,72 @@
+.expertise-div .group-124 {
+    position: absolute;
+    width: 488.97px;
+    height: 492.72px;
+    left: 72px;
+    top: 2016px;
+
+    background: url('../media/Group\ 124.png');
+}
+
+.expertise-div main .text-expertise p.heading {
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    left: 825px;
+    top: 2162px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+    margin: 0;
+}
+
+.expertise-div main .text-expertise p.para {
+    position: absolute;
+    width: 720px;
+    height: 70px;
+    left: 600px;
+    top: 2252px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #000000;
+    margin: 0;
+
+    opacity: 0.8;
+}
+
+.expertise-div main .overlay-bottom {
+    position: absolute;
+    width: 100%;
+    height: 703px;
+    left: -2px;
+    top: 2736px;
+
+    overflow: hidden;
+    background: url('../media/experties-bottom-overlay-blue.png');
+
+    
+    mix-blend-mode: multiply;
+    
+}
+
+.expertise-div main .overlay-bottom .overlay-div {
+    width: 100%;
+    height: 703px;
+    background: url('../media/expertise-giant-building-with-sun.png');
+    opacity: 0.4;
+}
